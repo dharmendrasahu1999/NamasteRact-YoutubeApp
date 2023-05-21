@@ -11,9 +11,9 @@ const appSlice = createSlice({
     },
     closeMenu:(state)=>{
       state.isMenuOpen=false;
-    }
+    },
   },
 });
 
-export const { toggleMenu ,closeMenu } = appSlice.actions;
+export const { toggleMenu ,closeMenu , zHandler} = appSlice.actions;
 export default appSlice.reducer;

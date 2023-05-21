@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from './Button'
-
+import '../index.css'
 const ButtonList = () => {
   return (
-    <div className='flex'>
+    <div className={`flex fixed bg-white  mt-[5rem] w-[100%]`}>
       <Button name="All"/>
       <Button name="Gaming"/>
       <Button name="Songs"/>
